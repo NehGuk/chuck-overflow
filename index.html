@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/scripts/getJoke.ts"></script>
+    <script type="module" src="/src/scripts/displayJoke.ts"></script>
     <title>Chuck Overflow</title>
   </head>
   <body>
-    <script type="module" src="/src/scripts/getJoke.ts"></script>
-    <script type="module" src="/src/scripts/displayJoke.ts"></script>
-    <h1>Chuck Overflow</h1>
-    <h2>A simple web page to practice TypeScript, Vite and Axios through Chuck Norris jokes</h2>
-    <button id="joke-btn">Tell me a Chuck Norris joke</button>
+    <header>
+      <h1>Chuck Overflow</h1>
+      <h2>A simple web page to practice TypeScript, Vite and Axios through Chuck Norris jokes</h2>
+    </header>
+    <main>
+      <article id="joke-btn-container">
+        <button id="joke-btn">Tell me a Chuck Norris joke</button>
+      </article>
+      <article id="joke-container">
+        <p id="joke"></p>
+      </article>
+    </main>
+    <footer>Footer</footer>
   </body>
 </html>
