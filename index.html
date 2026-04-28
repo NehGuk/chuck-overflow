@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="/src/scripts/getJoke.ts"></script>
     <script type="module" src="/src/scripts/displayJoke.ts"></script>
+    <script type="module" src="/src/scripts/chuckNorrifyBrowser.ts"></script>
     <title>Chuck Overflow</title>
   </head>
   <body>
@@ -15,7 +16,6 @@
         <img id="logo" src="./src/assets/logo-chuck-norris.png" alt="Chuck Norris logo" />
       </div>
       <h1>Chuck Overflow</h1>
-      <h2>A simple web page to practice TypeScript, Vite and Axios</h2>
     </header>
     <main>
       <article id="joke-btn-container">
@@ -25,6 +25,13 @@
         <p id="joke"></p>
       </article>
     </main>
-    <footer>Built with data from the chucknorris.io</footer>
+    <footer>
+      <h3>Kodehode 2026</h3>
+      <p>A simple exercise to practice TypeScript, Vite and Axios</p>
+      <p>
+        Built with data from
+        <a href="https://api.chucknorris.io/" target="_blank">chucknorris.io</a>
+      </p>
+    </footer>
   </body>
 </html>
