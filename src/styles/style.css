@@ -106,6 +106,7 @@ main {
 footer {
   min-height: 12rem;
   line-height: 2;
+  padding: 1rem;
 }
 
 footer::before {
